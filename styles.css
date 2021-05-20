@@ -1,0 +1,142 @@
+/* Valores generales */
+* {
+    box-sizing: border-box;
+}
+
+/* Modifico valores del body */
+body {
+    padding: 22px 28px;
+    background-color: #d99696;
+}
+
+/* Regla general para las secciones */
+.section {
+    width: 100%;
+    min-width: 268px;
+    margin-bottom: 21px;
+}
+
+/* PRIMERA SECCIÓN */
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 82px;
+    padding: 0 17px;
+
+    background-color: #96d9a1;
+}
+
+.first-square {
+    width: 60px;
+    height: 41px;
+    margin-right: 44px;
+
+    background-color: black;
+}
+
+.first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 51px;
+    width: 60%;
+    padding: 15px;
+
+    background-color: #5685bd;
+}
+
+.first-inner-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 103px;
+    height: 21px;
+}
+
+.first-container-block {
+    width: 43px;
+    height: 100%;
+    background-color: #66f9c4;
+}
+
+/* SEGUNDA SECCIÓN */
+.second-section {
+    display: flex;
+    justify-content: space-between;
+
+    height: 82px;
+}
+
+.second-element-1 {
+    width: 60%;
+    margin-right: 10%;
+
+    background-color: #96d9a1;
+}
+
+.second-element-2 {
+    width: 30%;
+
+    background-color: #96d9a1;
+}
+
+/* TERCERA SECCIÓN */
+.third-section {
+    display: flex;
+    justify-content: space-between;
+
+    height: 213px;
+
+    background-color: #96c5d9;
+}
+
+@media (min-width: 606px) {
+    .third-section {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        height: unset;
+    }
+}
+
+.third-section-block {
+    width: 80px;
+    height: 80px;
+    margin: 26px 23px;
+
+    background-color: #feb9da;
+}
+
+@media (min-width: 606px) {
+    .third-section-block {
+        margin: unset;
+    }
+
+    .third-section-block-1 {
+        margin-top: 20px;
+    }
+}
+
+.third-section-block-2 {
+    align-self: flex-end;
+}
+
+@media (min-width: 606px) {
+    .third-section-block-2 {
+        align-self: unset;
+        margin-top: 13px;
+        margin-bottom: 20px;
+    }
+}
+
+/* CUARTA SECCIÓN */
+.fourth-section {
+    height: 92px;
+    margin-bottom: unset;
+
+    background-color: #9796d9;
+}
