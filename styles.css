@@ -93,7 +93,7 @@ body {
     background-color: #96c5d9;
 }
 
-@media (min-width: 606px) {
+@media (min-width: 500px) {
     .third-section {
         flex-direction: column;
         justify-content: space-between;
@@ -111,7 +111,7 @@ body {
     background-color: #feb9da;
 }
 
-@media (min-width: 606px) {
+@media (min-width: 500px) {
     .third-section-block {
         margin: unset;
     }
@@ -125,7 +125,7 @@ body {
     align-self: flex-end;
 }
 
-@media (min-width: 606px) {
+@media (min-width: 500px) {
     .third-section-block-2 {
         align-self: unset;
         margin-top: 13px;
